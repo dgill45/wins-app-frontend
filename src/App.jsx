@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext, AuthProvider } from "./AuthContext";
-import TaskList from "./TaskList";
-import Login from "./Login";
-import Signup from "./Signup";
+import TaskList from "./components/TaskList";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
     const { user } = useContext(AuthContext);
